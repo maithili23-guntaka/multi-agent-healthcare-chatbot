@@ -4,8 +4,8 @@ from datetime import datetime
 from fpdf import FPDF
 
 # --- Gemini API Setup ---
-genai.configure(api_key="AIzaSyAnP4_4IkBNh38rN4MFzHytkIQZU95H5Ew")
-model = genai.GenerativeModel("gemini-1.5-pro-latest")
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel("Model_Version")
 
 
 # --- Functions ---
